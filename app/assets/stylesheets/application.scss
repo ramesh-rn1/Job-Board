@@ -14,3 +14,72 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+  background: "white";
+ 
+  font-family: 'Lato', sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.navbar-default {
+	background-color: rgb(249, 252, 255);
+	border-radius: 0;
+	height: 80px;
+	padding: 15px 0;
+	border: none;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-size: 2em;
+	font-weight: 300;
+	color: #1D976C !important;
+}
+
+#jobs {
+	.job {
+		padding: 1em 0;
+		border-bottom: 1px solid #777777;
+		h2 {
+			font-size: 2.5em;
+			font-weight: 300;
+			margin-bottom: 0;
+			color: #777777;
+			a {
+				color: #777777;
+			}
+		}
+		p {
+			color: #777777;
+		}
+	}
+}
+
+#links {
+	margin-top: 2em;
+}
+
+.b.btn.btn-sm.btn-default {
+	color: #337ab7;
+	background-color: white;
+}
